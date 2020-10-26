@@ -92,21 +92,31 @@ textarea {
 header, 
 footer {
 
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
- header {
-
+ header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
  }
 
  header nav {
-     justify-content: space-around;
+  display: flex;   
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 
  }
 
- footer {
+ footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
  }
 
@@ -114,18 +124,76 @@ align-items: center;
 
 .hero-area {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+ 
+  flex-flow: row wrap;
 
 }
 
-.form-description {
-    display: flex;
+.features .features-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  
+}
 
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/***********FAQ PAGE***********/
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.faq .content-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 }
 
 
+/**********about***************/
 
+.mission content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.contact section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-column-one, .contact-column-two {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
 
 
