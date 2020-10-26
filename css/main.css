@@ -98,6 +98,10 @@ footer {
   flex-flow: row wrap;
 
 }
+header {
+  padding: 15px 0;
+}
+
  header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -105,19 +109,34 @@ footer {
   flex-flow: row wrap;
  }
 
+.header-divider {
+  width: 45%;
+}
+
  header nav {
   display: flex;   
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-
+  width: 60%;
  }
 
+header nav ul{
+  width: 18%;
+}
+
+footer .content-wrapper{
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer p{
+  margin: 0;
+}
  footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
  }
 
 /*----Homepage-----*/
@@ -138,9 +157,14 @@ aside {
 .features {
   display: flex;
   justify-content: space-around;
- 
   flex-flow: row wrap;
 
+}
+.features article {
+  width: 57%;
+}
+.features p {
+  margin: 0;
 }
 
 .features .features-items {
@@ -148,7 +172,6 @@ aside {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  
 }
 
 .reviews {
@@ -156,6 +179,10 @@ aside {
   justify-content: center;
   flex-flow: row wrap;
 }
+
+.reviews h3 {
+  width: 88%;
+  }
 
 /***********FAQ PAGE***********/
 
@@ -194,6 +221,8 @@ flex-flow: row wrap;
   justify-content: center;
   flex-flow: row wrap;
 }
+
+
 
 
 
@@ -295,10 +324,20 @@ flex-flow: row wrap;
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width 768px) {
+  /* tablet styles here*/
+}
+.content-wrapper {
+  width: 640px;
+  margin: 100px;
 }
 
+header {
+  
+}
+@media only screen and (min-width 1200px) {
+  /* desktop styles here */
+}
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
