@@ -86,7 +86,64 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+   */
+   /* General Styles */
+    
+   html {
+     font-size: 16px;
+   }
+    
+   body {
+       font-family: 'Open Sans', sans-serif;
+       font-size: 1em;
+   }
+    
+   ul, 
+   ol {
+     list-style-type: none;
+    
+   }
+    
+   a {
+    color: #e2e3ed;
+    text-decoration: none;
+   }
+    
+   h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25em;
+    line-height: 2.25em;
+   }
+    
+   h3, 
+   h4 {
+    font-family: 'Poppins', sans-serif;
+   }
+    h3 {
+      font-size: 1.875em;
+    }
+    h4{
+      font-size: 1.125em;
+    }
+   p {
+     font-size: .875em;
+   }
+    
+   img {
+    
+   }
+    
+   figure {
+    
+   }
+    
+   address {
+    
+   }
+    
+   .content-wrapper {
+    
+   }
    /***********Base Style*********/
 .content-wrapper {
     width: 90%;
@@ -135,8 +192,6 @@ header nav ul{
   display:flex;
   justify-content: space-between;
   width: 100%;
-  list-style-type:none;
-  
 }
 
 header nav li {
@@ -198,7 +253,7 @@ aside {
 }
 .features article {
   width: 63%;
-  margin: 30px 0;
+  margin: 30px 0  ;
 }
 .features p {
   margin: 0;
@@ -500,7 +555,7 @@ header nav ul{
     }
   
     .features .article {
-        flex-basis: 33%;
+        flex-basis: 33%;  
     }
   
     /* Reviews */
