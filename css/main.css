@@ -619,6 +619,10 @@ header nav ul{
 .mission-content p {
     width: 45%;
 }
+.map figure {
+  padding-bottom: 75%;
+}
+
 .contact-section .content-wrapper h2 {
     width: 80%;
     
@@ -707,6 +711,11 @@ header nav ul{
     .mission h2 .contact-section .content-wrapper h2 {
       width: 95%;
   }
+
+  .map figure {
+    padding-bottom: 55%;
+  }
+  
    /******* FAQ page for Desktop********/
   
   .faq h2 {
