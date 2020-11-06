@@ -297,6 +297,10 @@ input[type=button] {
   background-repeat:no-repeat;
   background-position: center;
 }
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}        
 .features h2 {
   margin-bottom: 60px;
 }
