@@ -244,6 +244,9 @@ footer .copyright {
 
 /*---- Mobile-styles-Homepage-----*/
 
+.hero-area .content-wrapper {
+  margin: 20px 0;
+}
 .hero-area {
     display: flex;
     justify-content: center;
@@ -254,7 +257,7 @@ footer .copyright {
     background-position: center ;
 }
 .hero-area h1 {
-  font-size: 2.25em;
+  font-size: 2em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif; 
   font-weight: 500; 
   line-height: 1.2; 
@@ -540,7 +543,8 @@ header nav {
 
 }
 header nav ul{
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-left: 0;
 }
 .header-divider {
   display: none;
