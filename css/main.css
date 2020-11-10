@@ -218,9 +218,6 @@ footer p{
   margin: 0;
 }
 
-footer .contact-number {
-
-}
  footer .social-icons {
   display: flex;
   justify-content: space-between;
@@ -314,6 +311,7 @@ input[type=button] {
   margin-bottom: 60px;
 }
 .features p {
+  text-align: center;
   margin: 0;
 }
 .features article {
